@@ -1,5 +1,5 @@
 document.write("<div id='json'><\/div>");
-var source='y1:y';
+var source='z1:z';
   
 var id='1n5RSc9jnxqKr_rcfCZ1Uci90CApBl0y2BDn_WHs8W8A';
 var gid = '2082189564';
