@@ -1,7 +1,7 @@
 document.write("<input id=\"myInput\" type=\"text\" placeholder=\"Search..\">\r\n<br><br>\r\n<div id='json'><\/div>");
 var id='1n5RSc9jnxqKr_rcfCZ1Uci90CApBl0y2BDn_WHs8W8A';
 var gid = '2051430405';
-var source='C2:C';
+var source='C4:C';
 var url = 'https://docs.google.com/spreadsheets/d/'+id+'/gviz/tq?tqx=out:json&tq&gid='+gid+'&single=true&range='+source;
 fetch(url)
   .then(response => response.text())
