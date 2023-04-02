@@ -1,7 +1,7 @@
 document.write("<input id=\"myInput\" type=\"text\" placeholder=\"Search..\">\r\n<br><br>\r\n<div id='json'><\/div>");
 var id='1n5RSc9jnxqKr_rcfCZ1Uci90CApBl0y2BDn_WHs8W8A';
-var gid = '2051430405';
-var source='E24:E93';
+var gid = '187982906';
+var source='B15:B';
 var url = 'https://docs.google.com/spreadsheets/d/'+id+'/gviz/tq?tqx=out:json&tq&gid='+gid+'&single=true&range='+source;
 fetch(url)
   .then(response => response.text())
@@ -9,7 +9,7 @@ fetch(url)
   );
 function myItems(jsonString){
   var json = JSON.parse(jsonString);
-  var table = "<table id='custom'><thead><tr><th>Name</th><th>Video</th></tr></thead><tbody id='myTable'>"
+  var table = ""
   json.table.cols.forEach(colonne => table += '' + colonne.label + '')
   table += ''
   json.table.rows.forEach(ligne => {
@@ -23,7 +23,7 @@ function myItems(jsonString){
     table += ""
     }
   )
-  table += "</table>"
+  table += ""
   return table
 }
   
