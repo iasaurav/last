@@ -1,0 +1,49 @@
+document.write("Saurav Kumar<\/br><\/br>\r\nUpi-:<div id='git'><\/div><\/br>\r\nUpi-Qr:<div id='gith'><\/div>");
+  let name="Saurav Kumar";
+  let open = "'target='_blank'>";
+  var selc = document.getElementById("git"); 
+var upi = ['0302jan@paytm','9504952797@ybl','irctctraintickets@ybl','9504952797@apl','iasaurav@sbi']; 
+
+// Optional: Clear all existing options first:
+selc.innerHTML = "";
+// Populate list with options:
+for(var c = 0; c < upi.length; c++) {
+    var oap = upi[c];
+  let link="upi://pay?pa="+oap+"&pn=SauravKumar&am=";
+  
+  
+    selc.innerHTML += "<a href='" + link + "'>" + oap.charAt(0).toUpperCase() + oap.slice(1) + "</a>";
+}
+  
+  
+
+  
+  var selct = document.getElementById("gith"); 
+
+
+// Optional: Clear all existing options first:
+selct.innerHTML = "";
+// Populate list with options:
+for(var co = 0; co < upi.length; co++) {
+    var oap = upi[co];
+  let link="upi://pay?pa="+oap+"&pn=SauravKumar&am=";
+  let encoded = "https://chart.googleapis.com/chart?chs=400x400&cht=qr&chl="+encodeURIComponent(link);
+  
+    selct.innerHTML += "<a href='"+encoded+open+
+oap.charAt(0).toUpperCase() + oap.slice(1) + "</a>";
+}
+  
+  
+  
+
+
+   
+
+  
+  
+
+  
+  
+  
+  
+  
