@@ -1,0 +1,59 @@
+<div id='git'></div></br></br>
+
+
+
+<div id='gith'></div>
+
+    <script>
+      var date=new Date();  
+var day=date.toLocaleString("default", { day: "2-digit" });  
+var month = date.toLocaleString("default", { month: "2-digit" });
+var year=date.getFullYear(); 
+  
+  
+  
+  
+  
+  
+  let age = "+"+day+"-"+month+"-"+year+"@gmail.com";
+      
+      
+      
+      
+      
+      var selc = document.getElementById("git"); 
+
+var upi = ['offlinesaurav@gmail.com','ia_aurav@outlook.com','offlinesauravk@outlook.com','offlinesaurav+upsc@gmail.com','offlinesaurav+ias@gmail.com']; 
+
+// Optional: Clear all existing options first:
+
+selc.innerHTML = "";
+
+// Populate list with options:
+
+for(var c = 0; c < upi.length; c++) {
+
+    var oap = upi[c];
+
+    selc.innerHTML += "<a href='mailto:" + oap + "'>"+oap+"</a>";
+
+}
+      var selch = document.getElementById("gith"); 
+
+var upit = ['offlinesaurav','iasaurav']; 
+
+// Optional: Clear all existing options first:
+
+selch.innerHTML = "";
+
+// Populate list with options:
+
+for(var d = 0; d < upit.length; d++) {
+
+    var oapt = upit[d];
+
+    selch.innerHTML += "<a href='mailto:" + oapt +age+ "'>"+oapt+age+"</a>";
+
+}
+      
+      </script>
