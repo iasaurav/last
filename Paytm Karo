@@ -1,0 +1,26 @@
+<input name="car" id='upi' list="anrede" placeholder='Enter-Upi,Bank'/>
+<datalist id="anrede"></datalist>
+<input id="amount" type='tel' placeholder='Enter-Amount'onchange="myFunction()">
+<p id="demo"></p>
+<script>
+var mycars = [];
+let uniqueChars = [...new Set(mycars)];
+var list = document.getElementById('anrede');
+
+uniqueChars.forEach(function(item){
+   var option = document.createElement('option');
+   option.value = item;
+   list.appendChild(option);
+});
+</script>
+
+
+<script>
+function myFunction() {
+  var y = document.getElementById("amount").value;
+var x = document.getElementById("upi").value;
+let z="paytmmp://pay?pa="+x+"&pn=SauravKumar&am="+y;
+let a= "<a href='"+z+"'>"+z+"</a>";
+  document.getElementById("demo").innerHTML = a;
+}
+</script>
