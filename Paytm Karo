@@ -1,4 +1,4 @@
-<input name="car" id='upi' list="anrede" placeholder='Enter-Upi,Bank'/>
+<input name="car" id='upi' list="anrede" type='search'placeholder='Enter-Upi,Bank'/>
 <datalist id="anrede"></datalist>
 <input id="amount" type='tel' placeholder='Enter-Amount'onchange="myFunction()">
 <p id="demo"></p>
