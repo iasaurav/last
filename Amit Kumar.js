@@ -9,7 +9,7 @@ Receiever Name-: Amit Kumar</br>
   
   
 function myFunction() {
-  var y = document.getElementById("Amount").value;
+  var y = document.getElementById("amount").value;
 var x = '9386033643@paytm';
  
       
