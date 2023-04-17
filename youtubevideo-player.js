@@ -56,7 +56,7 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 </script>
 <style>
-   .highlight {
+   .ligh {
   background-color: Crimson;  
   border-radius: 5px;
   color: white;
@@ -64,8 +64,8 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
   text-decoration: none;
 }
 
-.highlight:focus,
-.highlight:hover {
+.light:focus,
+.light:hover {
   background-color: FireBrick;
   color: White;
 }
