@@ -1,0 +1,10 @@
+function Index2() {
+  var sheet = SpreadsheetApp.getActive().getSheetByName("Index")
+  var lastRow = sheet.getLastRow();
+  var formula = '=if(A2="","", Anchor("https://docs.google.com/spreadsheets/d/"&Id()&"/edit#gid="&C2,A2))';
+  var sourceRange = sheet.getRange(2, 4);
+  sourceRange.setFormula(formula);
+  var destinationRange = sheet.getRange(2, 4, lastRow - 1, 1);
+  sourceRange.autoFill(destinationRange, SpreadsheetApp.
+    AutoFillSeries.DEFAULT_SERIES);
+}

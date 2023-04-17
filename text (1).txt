@@ -1,0 +1,8 @@
+
+
+
+
+function Anchorg(a,b) {
+let c="https://docs.google.com/spreadsheets/d/"+id()+"/edit#gid="+a;
+return "<a href='"+c+"'>"+b+"</a>";
+}

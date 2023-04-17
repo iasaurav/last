@@ -1,0 +1,12 @@
+<form id="atg-form">
+<div id='json'></div>
+</br></br><label><input type='checkbox' id='blank'/>Phone-Apps</label>
+<label><input type='checkbox' id='insurance'/>Train</label>
+<label><input type='checkbox' id='password'/>Youtube</label>
+<label><input type='checkbox' id='netbanking'/>Mobile-Recharge</label></br>
+<label><input type='checkbox' id='payment'/>Search-Engine</label>
+<label><input type='checkbox' id='expense'/>Upi-Qr</label>
+<label><input type='checkbox' id='bank'/>Card</label>
+<label><input type='checkbox' id='debit'/>Saurav</label>
+<label><input type='checkbox' id='credit'/>Others</label><p id='output'></p>
+</form>
