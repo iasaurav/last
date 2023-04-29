@@ -36,6 +36,55 @@ text-align:left;
 
 
 
+input[type=tel]{
+  width: 250px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+::-webkit-input-placeholder { /* Edge */
+  color: #ff5733;
+font-family:'Comic Sans MS';font-size:15px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer */
+  color: #ff5733;
+font-family:'Comic Sans MS';font-size:15px;
+}
+
+::placeholder {
+  color: #ff5733;
+font-family:'Comic Sans MS';font-size:15px;
+}
+
+
+body,a{font-family:'Comic Sans MS';font-size:15px;}
+a{padding:5px;color:black;text-decoration:none;}
+
+
+
+input[type=button] {
+  width: 250px;
+  background-color: #4CAF50;
+  color: white
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
 #insurance {
 border-collapse: collapse;width:500px;}
 #insurance td,#insurance th  {
