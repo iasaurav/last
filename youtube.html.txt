@@ -1,0 +1,27 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script><!DOCTYPE html>
+<html>
+  <body>
+    <body>
+    <div id="player-size" style="">
+      <div id="cropping-div" style="">
+        <div id="div-to-crop" style="">
+          <div id="player-wrapper">
+            <!-- 1. The <iframe> (and video 
+            player) will replace this <div> 
+            tag. -->
+            <div id="player"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <table id='custom'><thead><tr><th>Name</th><th>Audio</th><th>Video</th></tr></thead><tbody id='myTable'>
+</table>
+    
+        
+  
+
+
+
