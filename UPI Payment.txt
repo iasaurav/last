@@ -1,0 +1,62 @@
+<p id='custom'></p>
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+</script>
+<script>
+  
+var week = ['Amar Bhaiya','Jitendra Kumar','Ravi Kumar','Rishu Kumar','Amit Mama','Papa','Priyanka','Puja','Shubham'];
+  
+  var upi = ['','','6202498410@paytm','7764934685@paytm','9386033643@paytm','9308353932@paytm','9504248020@paytm','7061611940@paytm','9835938393@ibl'];
+  var image = ['1mAlbmj-L_CATXERjW_1KoV-Dt33SzN-v','12vMK4kMxTWPiisV9jZKN3rtRLteW0qog','1OB1P73MU31FUoMDGAszYKa4TaEAhSIMJ','14Ek92V2tFl8IRVe_6IymSaMl4KvZiygh','15EXmca8GDqVSafgHlHMhFzRM8HjN7CnP','150DupQqCbzgxqom0sM50yUJzQIVHfKUj','1pWj6CEHQ8JIH_bj3qPk44MJ6CXKX6jLy','17z3jYsVhRJBtz3vm0DtDJjZc9JFtzrKz','1saiBN-6TaRKXsbLoDhpg2zK8JwYgkN7b'];
+  
+  var Amount = ['','','140','95'];
+  
+  var upii='0302jan@paytm';
+ 
+
+ $.each(week.slice(), function(i, data) {
+                  var ul_data = [
+
+               
+
+  '<div class="gallery"><a href="paytmmp://pay?pa='+upii+'&pn=Saurav&am='+Amount [i]+'"><img src="https://drive.google.com/uc?export=view&id='+image[i]+'"oncontextmenu="return false;"></a><div class="desc"><a href="https://gpay.app.goo.gl/pay-T8wH7S8sEGh">'+week[i]+'</br></br><a href="paytmmp://pay?pa='+upi[i]+'&pn='+week[i]+'&am='+Amount [i]+'">'+upi[i]+'</div></div>'
+                    
+                    
+                    
+
+ ];
+
+            $("#custom").append(ul_data);
+
+        });
+
+
+
+</script>
+<style>
+  body{width:3500px;}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  border-radius:20px;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+}
+
+  
+
+</style>
